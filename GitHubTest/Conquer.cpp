@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Country.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cq::Country germany("Germany");
+
+    std::cout << germany.to_string();
 }
